@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="WeatherApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wTj-MA-jld">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v9-AE-5sq">
+                                <rect key="frame" x="10" y="10" width="300" height="80"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" name="blueBlack"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2v9-AE-5sq" firstAttribute="top" secondItem="wTj-MA-jld" secondAttribute="top" constant="10" id="0lf-jL-BoU"/>
+                            <constraint firstAttribute="bottom" secondItem="2v9-AE-5sq" secondAttribute="bottom" constant="10" id="YDB-jM-9Ys"/>
+                            <constraint firstAttribute="trailing" secondItem="2v9-AE-5sq" secondAttribute="trailing" constant="10" id="fK4-9z-TbL"/>
+                            <constraint firstItem="2v9-AE-5sq" firstAttribute="leading" secondItem="wTj-MA-jld" secondAttribute="leading" constant="10" id="l1y-uU-hQW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wTj-MA-jld" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3Jg-iW-uaw"/>
+                    <constraint firstAttribute="bottom" secondItem="wTj-MA-jld" secondAttribute="bottom" id="6O0-ap-ehp"/>
+                    <constraint firstAttribute="trailing" secondItem="wTj-MA-jld" secondAttribute="trailing" id="6xN-0W-qZg"/>
+                    <constraint firstItem="wTj-MA-jld" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Iwc-kJ-H5E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="wTj-MA-jld" id="weT-Le-IVC"/>
+                <outlet property="titleLblCell" destination="2v9-AE-5sq" id="ava-Zr-e8k"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="85.044642857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blueBlack">
+            <color red="0.14900000393390656" green="0.19200000166893005" blue="0.2669999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
