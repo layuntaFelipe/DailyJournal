@@ -1,6 +1,6 @@
 //
 //  WebViewController.swift
-//  WeatherApp
+//  DailyJournal
 //
 //  Created by Felipe Lobo on 02/04/21.
 //

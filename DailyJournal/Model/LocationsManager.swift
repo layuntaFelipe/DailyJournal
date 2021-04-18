@@ -1,6 +1,6 @@
 //
 //  LocationsModel.swift
-//  WeatherApp
+//  DailyJournal
 //
 //  Created by Felipe Lobo on 29/03/21.
 //

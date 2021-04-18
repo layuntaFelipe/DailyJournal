@@ -1,6 +1,6 @@
 //
 //  LocationViewController.swift
-//  WeatherApp
+//  DailyJournal
 //
 //  Created by Felipe Lobo on 30/03/21.
 //

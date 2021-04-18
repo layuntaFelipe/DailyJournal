@@ -1,6 +1,6 @@
 //
 //  CustomCell.swift
-//  WeatherApp
+//  DailyJournal
 //
 //  Created by Felipe Lobo on 05/04/21.
 //

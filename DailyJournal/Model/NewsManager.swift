@@ -1,6 +1,6 @@
 //
 //  NewsManager.swift
-//  WeatherApp
+//  DailyJournal
 //
 //  Created by Felipe Lobo on 01/04/21.
 //
