@@ -8,7 +8,6 @@
 import Foundation
 
 struct NewsData: Codable {
-    let totalResults: Int
     let articles: [Articles]
 }
 

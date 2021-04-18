@@ -49,9 +49,13 @@ struct NewsManager {
             print(decodedData)
 
             var articlesArray = [NewsModel]()
-            print(decodedData.totalResults)
+            var numberOfArticles = 0
+            
+            for _ in decodedData.articles{
+                numberOfArticles += 1
+            }
 
-            for num in 0...5 {
+            for num in 0...numberOfArticles-1 {
                 let models = NewsModel(title: decodedData.articles[num].title,
                                        url: decodedData.articles[num].url,
                                        publishedAt: decodedData.articles[num].publishedAt, urlToImage: decodedData.articles[num].urlToImage ?? "")

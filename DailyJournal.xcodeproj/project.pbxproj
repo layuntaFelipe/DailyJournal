@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27292FD0261296BE00845A40 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27292FD0261296BE00845A40 /* DailyJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27292FD3261296BE00845A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27292FD5261296BE00845A40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27292FDA261296BE00845A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		27292FC7261296BE00845A40 = {
 			isa = PBXGroup;
 			children = (
-				27292FD2261296BE00845A40 /* WeatherApp */,
+				27292FD2261296BE00845A40 /* DailyJournal */,
 				27292FD1261296BE00845A40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		27292FD1261296BE00845A40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27292FD0261296BE00845A40 /* WeatherApp.app */,
+				27292FD0261296BE00845A40 /* DailyJournal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27292FD2261296BE00845A40 /* WeatherApp */ = {
+		27292FD2261296BE00845A40 /* DailyJournal */ = {
 			isa = PBXGroup;
 			children = (
 				27292FD3261296BE00845A40 /* AppDelegate.swift */,
@@ -84,7 +84,7 @@
 				27292FDC261296BF00845A40 /* Assets.xcassets */,
 				27292FE1261296BF00845A40 /* Info.plist */,
 			);
-			path = WeatherApp;
+			path = DailyJournal;
 			sourceTree = "<group>";
 		};
 		276C00162616580A008F4316 /* Model */ = {
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27292FCF261296BE00845A40 /* WeatherApp */ = {
+		27292FCF261296BE00845A40 /* DailyJournal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27292FE4261296BF00845A40 /* Build configuration list for PBXNativeTarget "WeatherApp" */;
+			buildConfigurationList = 27292FE4261296BF00845A40 /* Build configuration list for PBXNativeTarget "DailyJournal" */;
 			buildPhases = (
 				27292FCC261296BE00845A40 /* Sources */,
 				27292FCD261296BE00845A40 /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = WeatherApp;
+			name = DailyJournal;
 			productName = WeatherApp;
-			productReference = 27292FD0261296BE00845A40 /* WeatherApp.app */;
+			productReference = 27292FD0261296BE00845A40 /* DailyJournal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 27292FCB261296BE00845A40 /* Build configuration list for PBXProject "WeatherApp" */;
+			buildConfigurationList = 27292FCB261296BE00845A40 /* Build configuration list for PBXProject "DailyJournal" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27292FCF261296BE00845A40 /* WeatherApp */,
+				27292FCF261296BE00845A40 /* DailyJournal */,
 			);
 		};
 /* End PBXProject section */
@@ -352,12 +352,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPPGXZ3Y59;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = DailyJournal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.layunta.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.layunta.DailyJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,12 +371,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPPGXZ3Y59;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = DailyJournal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.layunta.WeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.layunta.DailyJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,7 +386,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27292FCB261296BE00845A40 /* Build configuration list for PBXProject "WeatherApp" */ = {
+		27292FCB261296BE00845A40 /* Build configuration list for PBXProject "DailyJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27292FE2261296BF00845A40 /* Debug */,
@@ -395,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27292FE4261296BF00845A40 /* Build configuration list for PBXNativeTarget "WeatherApp" */ = {
+		27292FE4261296BF00845A40 /* Build configuration list for PBXNativeTarget "DailyJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27292FE5261296BF00845A40 /* Debug */,
