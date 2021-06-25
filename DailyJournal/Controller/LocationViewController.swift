@@ -28,6 +28,7 @@ class LocationViewController: UIViewController{
     
     var location = LocationsManager()
     var coreLocationManager = CLLocationManager()
+    var trackingTransparency = TrackingTransparency()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,7 @@ class LocationViewController: UIViewController{
     
         coreLocationManager.requestWhenInUseAuthorization()
         coreLocationManager.requestLocation()
+        trackingTransparency.initiateTracking()
 
         mainTempView.layer.cornerRadius = 20
         mainTempView.layer.shadowColor = UIColor(named: "blue")?.cgColor
